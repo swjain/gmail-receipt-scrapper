@@ -9,7 +9,7 @@ Google app script for scrapping out various kind of receipts directly from your 
 * Run function **main** by selecting from the dropdown (:information_source: You need to save and name your project before launch).
 * Read the disclosure and provide appropriate authorizations.
 * Go to **View > Executions**, check status and wait until it is **COMPLETED**. This step might take significant time depending on the volume of the messages that match your filter. For a typical 100 messages, it took around 250 seconds for me.
-* Once **COMPLETED**, go to your Google Drive and look for a directory named **receipts** at the root of your drive. You should find all the extracted receipts with title and date received. Also there would be a spreadsheet summarizing all the messages and the total amount you have spent.
+* Once completed, go to your Google Drive and look for a directory named **receipts** at the root of your drive. You should find all the extracted receipts with title and date received. Also there would be a spreadsheet summarizing all the messages and the total amount you have spent.
 
 #### Demo:
 
