@@ -1,6 +1,6 @@
 ### Gmail receipts scrapper
 
-Google app script for scrapping out various kind of receipts directly from your Gmail inbox. Currently supporting Swiggy & Ubereats receipts but can fairly be extended for any operator which delivers receipts to your Gmail account.  
+Google app script for scraping out various kinds of receipts directly from your Gmail. Currently supporting Swiggy & Ubereats receipts but can fairly be extended for Ola/Uber rides, phone bills, etc. Basically for every platform which delivers receipts to Gmail inbox, we'll need to patch in a simple parser function implementing regex for extracting cost from the receipt, example [here](./Code.gs#L87-L92). Feel free to buzz me for any support.
 
 #### Usage:
 * Go to https://script.google.com/home
